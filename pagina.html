@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojas Guimarães - Loja Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .produto {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .produto img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .botao-comprar {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: green;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .contato {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .pagamento {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>Lojas Guimarães - Loja Online</header>
+    <div class="container">
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Produto 1">
+            <h3>Produto 1</h3>
+            <p>R$ 100,00</p>
+            <a href="#" class="botao-comprar">Comprar</a>
+        </div>
+        <div class="produto">
+            <img src="https://via.placeholder.com/200" alt="Produto 2">
+            <h3>Produto 2</h3>
+            <p>R$ 150,00</p>
+            <a href="#" class="botao-comprar">Comprar</a>
+        </div>
+    </div>
+    <div class="contato">
+        <p>Contato: <strong>11962182708</strong></p>
+        <p>Deixe seu feedback sobre nossa loja!</p>
+    </div>
+    <div class="pagamento">
+        <h2>Formas de Pagamento</h2>
+        <p>Aceitamos pagamentos via cartão de crédito, débito e Pix.</p>
+        <p><strong>Segurança garantida com criptografia de dados.</strong></p>
+    </div>
+</body>
+</html>
